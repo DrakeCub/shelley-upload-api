@@ -6,7 +6,7 @@ import uploadRouter from "./routes/upload";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(cors({ origin: "https://DrakeCub.github.io" }));
+app.use(cors({ origin: "https://drakecub.github.io" }));
 app.use(express.json());
 
 app.use("/api/upload", uploadRouter);
